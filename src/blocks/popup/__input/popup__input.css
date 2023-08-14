@@ -1,0 +1,13 @@
+.popup__input {
+  border: none;
+  margin: 75px 0 0 0;
+  padding: 0;
+  display: grid;
+  gap: 30px;
+}
+
+@media screen and (min-width: 900px) {
+  .popup__input {
+    margin-top: 46px;
+  }
+}
