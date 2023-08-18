@@ -5,7 +5,17 @@
 @import url(./blocks/page/page.css);
 
 @import url(./blocks/header/header.css);
+@import url(./blocks/header/__bar/header__bar.css);
+@import url(./blocks/header/__nav/header__nav.css);
 @import url(./blocks/header/__logo/header__logo.css);
+@import url(./blocks/header/__user/header__user.css);
+@import url(./blocks/header/__list/header__list.css);
+@import url(./blocks/header/__burger/header__burger.css);
+@import url(./blocks/header/__button/header__button.css);
+@import url(./blocks/header/__nav/_type/header__nav_type_mobile.css);
+@import url(./blocks/header/__list/_type/header__list_type_mobile.css);
+@import url(./blocks/header/__user/_type/header__user_type_mobile.css);
+@import url(./blocks/header/__button/_type/header__button_type_mobile.css);
 
 @import url(./blocks/content/content.css);
 
@@ -32,6 +42,12 @@
 @import url(./blocks/card/__like-button/_active/card__like-button_active.css);
 @import url(./blocks/card/__like-counter/card__like-counter.css);
 
+@import url(./blocks/auth/__btn/auth__btn.css);
+@import url(./blocks/auth/__form/auth__form.css);
+@import url(./blocks/auth/__input/auth__input.css);
+@import url(./blocks/auth/__login-link/auth__login-link.css);
+@import url(./blocks/auth/__title/auth__title.css);
+
 @import url(./blocks/popup/popup.css);
 @import url(./blocks/popup/__container/popup__container.css);
 @import url(./blocks/popup/__close-button/popup__close-button.css);
@@ -49,6 +65,10 @@
 @import url(./blocks/popup/__input-error-message/popup__input-error-message.css);
 @import url(./blocks/popup/__save-button/_inactive/popup__save-button_inactive.css);
 @import url(./blocks/popup/_card/popup_card.css);
+@import url(./blocks/popup/__title/popup__title.css);
+@import url(./blocks/popup/__success/popup__success.css);
+@import url(./blocks/popup/__success/_type_fail/popup__success_type_fail.css);
+@import url(./blocks/popup/__success/_type_ok/popup__success_type_ok.css);
 
 @import url(./blocks/footer/footer.css);
 @import url(./blocks/footer/__author/footer__author.css);
