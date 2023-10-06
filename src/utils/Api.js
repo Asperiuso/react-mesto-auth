@@ -1,11 +1,11 @@
-const apiBaseUrl = "https://mesto.nomoreparties.co/v1/cohort-69";
-const apiToken = "d30a28cc-3f89-4e69-baa3-301026382752"; 
+const apiBaseUrl = "https://api.mestox.nomoredomainsrocks.ru";
+// const apiToken = "d30a28cc-3f89-4e69-baa3-301026382752"; 
 
 class Api {
   constructor() {
     this._baseUrl = apiBaseUrl;
     this._headers = {
-      authorization: apiToken,
+      // authorization: apiToken,
       "Content-Type": "application/json",
     };
   }

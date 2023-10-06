@@ -43,7 +43,7 @@ class AuthApi {
 }
 
 export const authApi = new AuthApi({
-  baseUrl: `https://auth.nomoreparties.co`,
+  baseUrl: `https://api.mestox.nomoredomainsrocks.ru`,
   headers: {
     'Content-Type': 'application/json',
   },
